@@ -52,7 +52,20 @@ a.active {
   background-color: #2c3e50 !important;
 }
 
-
-
-
 /*End of Nav */
+
+/* About Section */
+
+img.head-image {
+  height: 10%;
+  width: auto;
+  overflow: auto;
+  
+}
+
+.section-heading {
+  text-align: center;
+  padding-top: 2em;
+}
+
+/* End About */
