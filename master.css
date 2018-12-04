@@ -9,12 +9,50 @@ body {
   padding: 0;
 }
 
+.page-back{
+  background-color: #57606f;
+}
+/* Nav Stuff */
 a.home {
   color: white;
   font-size: 20px;
   letter-spacing: 2px;
+  background-color: #2c3e50;
+  padding: 2px 8px;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+a.home:hover{
+  color: #2c3e50;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: white;
+  padding: 2px 8px;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none !important;
+}
+
+a.active {
+  color: #95afc0 !important;
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+#nav {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
 }
 
 .bg-dark {
-  background-color: #222f3e !important;
+  background-color: #2c3e50 !important;
 }
+
+
+
+
+/*End of Nav */
