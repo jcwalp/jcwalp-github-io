@@ -57,9 +57,8 @@ a.active {
 /* About Section */
 
 img.head-image {
-  height: 100%;
-  width: auto;
-  border-radius: 50%;
+  height: auto;
+  width: 100%;
 }
 
 .head-container {
@@ -81,5 +80,27 @@ h2 {
 i {
   color: white !important;
   padding-bottom: 1.5em;
+}
+
+.column {
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.white-line {
+  background-color: white;
+  padding-top: 2px;
+}
+
+.column-desc-box {
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-bottom: 1.5em;
+  background-color:
+}
+
+p.column-subtext {
+  color: white;
 }
 /* End About */
