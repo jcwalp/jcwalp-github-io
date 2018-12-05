@@ -91,16 +91,21 @@ i {
 .white-line {
   background-color: white;
   padding-top: 2px;
+
 }
 
 .column-desc-box {
+  border-top-color: white;
+  border-top-width: 2px;
+  border-top-style: solid;
   padding-top: 1.5em;
   padding-left: 1.5em;
   padding-bottom: 1.5em;
-  background-color:
+  background-color: #55efc4;
 }
 
 p.column-subtext {
-  color: white;
+  color: #2d3436;
+  font-size: 20px;
 }
 /* End About */
